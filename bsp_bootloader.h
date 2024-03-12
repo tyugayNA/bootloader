@@ -19,10 +19,10 @@
 #include <stdbool.h>
 
 /* define address of memory */
-// #define CFG_ADDR		        (0x08020000)
-// #define APP_ADDR	            (0x08040000)
-// #define APP_SLOT0_ADDR			(0x08060000)
-// #define APP_SLOT1_ADDR			(0x08080000)
+#define CFG_ADDR		        (0x08020000)
+#define APP_ADDR	            (0x08040000)
+#define APP_SLOT0_ADDR			(0x08060000)
+#define APP_SLOT1_ADDR			(0x08080000)
 
  #define NUM_OF_SLOTS			(2)
  #define SLOT_SIZE				(128 * 1024)
